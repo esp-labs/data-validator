@@ -1,0 +1,18 @@
+{
+  "name": "@esp-labs/validators",
+  "version": "1.0.0",
+  "description": "Data validation library for TypeScript projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": ["validation", "typescript", "validators"],
+  "author": "esp-labs",
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ]
+}
