@@ -1,18 +1,30 @@
 {
   "name": "@esp-labs/validators",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Data validation library for TypeScript projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "dev": "tsc --watch",
     "test": "jest",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
-  "keywords": ["validation", "typescript", "validators"],
+  "keywords": [
+    "validation",
+    "typescript",
+    "validators"
+  ],
   "author": "esp-labs",
   "license": "MIT",
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6"
+  }
 }
