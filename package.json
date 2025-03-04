@@ -9,6 +9,11 @@
   "description": "Data validation library for TypeScript projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esp-labs/validators.git"
+  },
+  "homepage": "https://github.com/esp-labs/validators",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
